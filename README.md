@@ -1,9 +1,11 @@
 # Probabilistic Synchronization in Computer Vision
 [Tolga Birdal](http://tbirdal.me/), [Umut Şimşekli](https://perso.telecom-paristech.fr/simsekli/) & [Michael Arbel](https://michaelarbel.github.io/) 
+
 [Stanford University](http://www.stanford.edu), [Télécom ParisTech](http://www.telecom-paristech.fr/) & [University College London](https://www.ucl.ac.uk/)
 
-
 A unifying website for all the probabilistic synchronization efforts we have.
+
+![ProbSyncInVision](doc/webteaser.jpg) 
 
 ## Bayesian Pose Graph Optimization via Bingham Distributions and Tempered Geodesic MCMC
 [NeurIPS 2018](https://neurips.cc/)
@@ -17,12 +19,12 @@ We introduce Tempered Geodesic Markov Chain Monte Carlo (TG-MCMC) algorithm for 
 [Paper](https://arxiv.org/abs/1805.12279) | [Poster](doc/neurips2018-poster.pdf) | [BibTex](doc/BirdalNeurips2018.bib)
 
 		  @inproceedings{birdal2018bayesian,
-          title={Bayesian pose graph optimization via bingham distributions and tempered geodesic mcmc},
-          author={Birdal, Tolga and Simsekli, Umut and Eken, Mustafa Onur and Ilic, Slobodan},
-          booktitle={Advances in Neural Information Processing Systems},
-          pages={308--319},
-          year={2018}
-        }
+            title={Bayesian pose graph optimization via bingham distributions and tempered geodesic mcmc},
+            author={Birdal, Tolga and Simsekli, Umut and Eken, Mustafa Onur and Ilic, Slobodan},
+            booktitle={Advances in Neural Information Processing Systems},
+            pages={308--319},
+            year={2018}
+          }
 		  
 ## Probabilistic Permutation Synchronization using the Riemannian Structure of the Birkhoff Polytope
 [CVPR 2019](http://cvpr2019.thecvf.com/) Best Paper Candidate
@@ -35,14 +37,13 @@ We present an entirely new geometric and probabilistic approach to synchronizati
 #### Downloads and Citing
 [Paper](https://arxiv.org/abs/1904.05814) | [BibTex](doc/BirdalSimsekli2019.bib)
 
-		  @inproceedings{zhao20193d, 
-			author={Zhao, Yongheng and Birdal, Tolga and Deng, Haowen and Tombari, Federico}, 
-			booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)}, 
-			title={3D Point 
-			Capsule Networks}, 
-			organizer={IEEE/CVF},
-			year={2019}
-		  }
+          @inproceedings{birdal2019probabilistic,
+            title={Probabilistic Permutation Synchronization using the Riemannian Structure of the Birkhoff Polytope},
+            author={Birdal, Tolga and Simsekli, Umut},
+            booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+            pages={11105--11116},
+            year={2019}
+          }
 		  
 #### Sources
 The entire source code is to come. In the meanwhile:
@@ -61,10 +62,10 @@ We introduce a new paradigm, **measure synchronization**, for synchronizing grap
 #### Downloads and Citing
 [Paper] | [BibTex](doc/BirdalCVPR2020.bib)
 
-		  @inproceedings{birdal2020measure,
-          title={Synchronizing Probability Measures on Rotations via Optimal Transport},
-          author={Birdal, Tolga and Arbel, Michael and Simsekli, Umut and Guibas, Leonidas},
-          booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-          year={2020}
-        }
+          @inproceedings{birdal2020measure,
+            title={Synchronizing Probability Measures on Rotations via Optimal Transport},
+            author={Birdal, Tolga and Arbel, Michael and Simsekli, Umut and Guibas, Leonidas},
+            booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+            year={2020}
+          }
 		  
