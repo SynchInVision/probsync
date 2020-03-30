@@ -7,6 +7,8 @@ This page presents a sequence of efforts in characterizing the multimodal uncert
 
 ![ProbSyncInVision](doc/webteaser2.jpg) 
 
+We will now give the details about the individual algorithms published in different major conferences:
+
 ## Bayesian Pose Graph Optimization via Bingham Distributions and Tempered Geodesic MCMC
 [NeurIPS 2018](https://neurips.cc/)
 
