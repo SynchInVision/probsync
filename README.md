@@ -3,9 +3,9 @@
 
 [Stanford University](http://www.stanford.edu), [Télécom ParisTech](http://www.telecom-paristech.fr/) & [University College London](https://www.ucl.ac.uk/)
 
-A unifying website for all the probabilistic synchronization efforts we have.
+This page presents a sequence of efforts in characterizing the multimodal uncertainty in a variety of synchronization problems. It also includes the resources about our recent **measure synchronization on the Riemannian manifolds** that is to appear in CVPR 2020. A brief illustration of the problems/approaches we consider is given below:
 
-![ProbSyncInVision](doc/webteaser.jpg) 
+![ProbSyncInVision](doc/webteaser2.jpg) 
 
 ## Bayesian Pose Graph Optimization via Bingham Distributions and Tempered Geodesic MCMC
 [NeurIPS 2018](https://neurips.cc/)
