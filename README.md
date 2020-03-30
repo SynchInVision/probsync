@@ -7,8 +7,6 @@ This page presents a sequence of efforts in characterizing the multimodal uncert
 
 ![ProbSyncInVision](doc/webteaser2.jpg) 
 
-We will now give the details about the individual algorithms published in different major conferences:
-
 ## Bayesian Pose Graph Optimization via Bingham Distributions and Tempered Geodesic MCMC
 [NeurIPS 2018](https://neurips.cc/)
 
@@ -57,6 +55,8 @@ The recent [geo-opt library](https://github.com/geoopt/geoopt) implements the RS
 
 ## Synchronizing Probability Measures on Rotations via Optimal Transport
 [CVPR 2020](http://cvpr2020.thecvf.com/) 
+
+![Synchornization](doc/OTsyncTeaser.jpg) 
 
 #### Abstract
 We introduce a new paradigm, **measure synchronization**, for synchronizing graphs with measure-valued edges. We formulate this problem as maximization of the cycle-consistency in the space of probability measures over relative rotations. In particular, we aim at estimating marginal distributions of absolute orientations by synchronizing the `conditional' ones, which are defined on the Riemannian manifold of quaternions. Such graph optimization on distributions-on-manifolds enables a natural treatment of multimodal hypotheses, ambiguities and uncertainties arising in many computer vision applications such as SLAM, SfM, and object pose estimation. We first formally define the problem as a generalization of the classical rotation graph synchronization, where in our case the vertices denote probability measures over rotations. We then measure the quality of the synchronization by using Sinkhorn divergences, which reduces to other popular metrics such as Wasserstein distance or the maximum mean discrepancy as limit cases. We propose a nonparametric Riemannian particle optimization approach to solve the problem. Even though the problem is non-convex, by drawing a connection to the recently proposed sparse optimization methods, we show that the proposed algorithm converges to the global optimum in a special case of the problem under certain conditions. Our qualitative and quantitative experiments show the validity of our approach and we bring in new perspectives to the study of synchronization.
