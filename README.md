@@ -52,6 +52,26 @@ The recent [geo-opt library](https://github.com/geoopt/geoopt) implements the RS
 #### Oral presentation from CVPR 2019
 <iframe width="900" height="506.25" src="https://www.youtube.com/embed/q03CXgyOHIE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+## Learning multiview 3D point cloud registration
+[CVPR 2020](http://cvpr2020.thecvf.com/) 
+
+![MultiviewRegistration](doc/multiviewReg.jpg) 
+
+#### Abstract
+We present a novel, end-to-end learnable, multiview 3D point cloud registration algorithm. Registration of multiple scans typically follows a two-stage pipeline: the initial pairwise alignment and the globally consistent refinement. The former is often ambiguous due to the low overlap of neighboring point clouds, symmetries and repetitive scene parts. Therefore, the latter global refinement aims at establishing the cyclic consistency across multiple scans and helps in resolving the ambiguous cases. In this paper we propose, to the best of our knowledge, the first end-to-end algorithm for joint learning of both parts of this two-stage problem. Experimental evaluation on well accepted benchmark datasets shows that our approach outperforms the state-of-the-art by a significant margin, while being end-to-end trainable and computationally less costly. Moreover, we present detailed analysis and an ablation study that validate the novel components of our approach.
+
+#### Downloads and Citing
+[Paper](https://arxiv.org/abs/2001.05119) | [BibTex](doc/GojcicCVPR2020.bib)
+
+          @inproceedings{gojcic2020learning,
+            title={Learning multiview 3D point cloud registration},
+            author={Gojcic Zan and Zhou, Caifa and Wegner, Jan D. and Guibas, Leonidas and Birdal, Tolga},
+            booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+            year={2020}
+          }
+          
+#### Sources
+Upon publication our entire source code will be available under [3D_multiview_reg repository](https: //github.com/zgojcic/3D_multiview_reg). 
 
 ## Synchronizing Probability Measures on Rotations via Optimal Transport
 [CVPR 2020](http://cvpr2020.thecvf.com/) 
