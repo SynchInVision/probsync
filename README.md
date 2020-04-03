@@ -20,7 +20,7 @@ We introduce Tempered Geodesic Markov Chain Monte Carlo (TG-MCMC) algorithm for 
 
 		  @inproceedings{birdal2018bayesian,
             title={Bayesian pose graph optimization via bingham distributions and tempered geodesic mcmc},
-            author={Birdal, Tolga and Simsekli, Umut and Eken, Mustafa Onur and Ilic, Slobodan},
+            author={Birdal, Tolga and Şimşekli, Umut and Eken, Mustafa Onur and Ilic, Slobodan},
             booktitle={Advances in Neural Information Processing Systems},
             pages={308--319},
             year={2018}
@@ -39,7 +39,7 @@ We present an entirely new geometric and probabilistic approach to synchronizati
 
           @inproceedings{birdal2019probabilistic,
             title={Probabilistic Permutation Synchronization using the Riemannian Structure of the Birkhoff Polytope},
-            author={Birdal, Tolga and Simsekli, Umut},
+            author={Birdal, Tolga and Şimşekli, Umut},
             booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
             pages={11105--11116},
             year={2019}
@@ -82,11 +82,11 @@ Upon publication our entire source code will be available under [3D_multiview_re
 We introduce a new paradigm, **measure synchronization**, for synchronizing graphs with measure-valued edges. We formulate this problem as maximization of the cycle-consistency in the space of probability measures over relative rotations. In particular, we aim at estimating marginal distributions of absolute orientations by synchronizing the `conditional' ones, which are defined on the Riemannian manifold of quaternions. Such graph optimization on distributions-on-manifolds enables a natural treatment of multimodal hypotheses, ambiguities and uncertainties arising in many computer vision applications such as SLAM, SfM, and object pose estimation. We first formally define the problem as a generalization of the classical rotation graph synchronization, where in our case the vertices denote probability measures over rotations. We then measure the quality of the synchronization by using Sinkhorn divergences, which reduces to other popular metrics such as Wasserstein distance or the maximum mean discrepancy as limit cases. We propose a nonparametric Riemannian particle optimization approach to solve the problem. Even though the problem is non-convex, by drawing a connection to the recently proposed sparse optimization methods, we show that the proposed algorithm converges to the global optimum in a special case of the problem under certain conditions. Our qualitative and quantitative experiments show the validity of our approach and we bring in new perspectives to the study of synchronization.
 
 #### Downloads and Citing
-[Paper] | [BibTex](doc/BirdalCVPR2020.bib)
+[Paper](https://arxiv.org/pdf/2004.00663.pdf) | [BibTex](doc/BirdalCVPR2020.bib)
 
           @inproceedings{birdal2020measure,
             title={Synchronizing Probability Measures on Rotations via Optimal Transport},
-            author={Birdal, Tolga and Arbel, Michael and Simsekli, Umut and Guibas, Leonidas},
+            author={Birdal, Tolga and Arbel, Michael and Şimşekli, Umut and Guibas, Leonidas},
             booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
             year={2020}
           }
