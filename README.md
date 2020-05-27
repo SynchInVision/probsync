@@ -97,3 +97,4 @@ We introduce a new paradigm, **measure synchronization**, for synchronizing grap
 #### Short presentation from CVPR 2020
 <iframe width="900" height="506.25" src="https://youtu.be/yiy83nlexls" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+
