@@ -74,7 +74,7 @@ We present a novel, end-to-end learnable, multiview 3D point cloud registration 
 Upon publication our entire source code will be available under [3D_multiview_reg repository](https: //github.com/zgojcic/3D_multiview_reg). 
 
 #### Short presentation from CVPR 2020
-<iframe width="900" height="506.25" src="https://youtu.be/Girxxvv8joQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Girxxvv8joQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Synchronizing Probability Measures on Rotations via Optimal Transport
 [CVPR 2020](http://cvpr2020.thecvf.com/) 
@@ -95,6 +95,6 @@ We introduce a new paradigm, **measure synchronization**, for synchronizing grap
           }
 
 #### Short presentation from CVPR 2020
-<iframe width="900" height="506.25" src="https://youtu.be/yiy83nlexls" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yiy83nlexls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
